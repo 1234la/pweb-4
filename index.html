@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" type="image/png" href="./assets/image/Logo4.png" sizes="16x16" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Poppins:wght@500;600;800&display=swap" rel="stylesheet">
+        <!--=============== JS ===============-->
+        <!-- <script src="https://kit.fontawesome.com/7c1b58181d.js" crossorigin="anonymous"></script> -->
+
+        <title>Plantme.</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="logo_container">
+                    <img class="image__logo" src="./assets/image/Logo4.png" alt="Logo" height="40px" width="40px">
+                    <a href="#" class="nav__logo">Plantme.</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#beranda" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Beranda</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#katalog" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon'></i>
+                                <span class="nav__name">Katalog</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#tentang" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Tentang</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="nav__item">
+                            <a href="#kontak" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Kontak</span>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <img src="assets/img/perfil.png" alt="" class="nav__img">
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== BERANDA ===============-->
+            <div class="beranda-container circle">
+                <section class="beranda container section section__height" id="beranda"> 
+                    <div class="text__container">
+                        <h2>Bukan tanaman biasa<br>Tapi <span>Plantme.</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed commodo justo. Aenean ultricies placerat dolor. Nunc hendrerit eu diam a viverra. Nulla mi ante, consectetur et metus quis, posuere varius turpis. Quisque imperdiet nisl nec felis sodales blandit.</p>
+                        <a href="#">Shop Now!</a>
+                    </div>
+                    <div class="image__container">
+                        <img src="./assets/image/tanaman_2.png" alt="tanaman_2" class="tanaman" sty>
+                    </div>
+                    <ul class="thumb">
+                        <li><img src="./assets/image/thumb-2.png" alt="tanaman-1" onclick="imgSlider('./assets/image/tanaman-1.png')"></li>
+                        <li><img src="./assets/image/thumb-1.png" alt="tanaman-2" onclick="imgSlider('./assets/image/tanaman_2.png')"></li>
+                        <li><img src="./assets/image/thumb-3.png" alt="tanaman-3" onclick="imgSlider('./assets/image/tanaman-3.png')"></li>
+                    </ul>
+                </section>
+            </div>
+            
+            <!--=============== KATALOG TANAMAN ===============-->
+            <section class="katalog" id="katalog">
+                    <div class="container section">
+                        <div class="title_container">
+                            <h2 class="section__title">Katalog Tanaman</h2>
+                            <h3 class="section__subtitle">Terbaru</h3>
+                        </div>
+
+                        <di class="product_container">
+                            <div class="card">
+                                <img src="./assets/image/tanaman-1.png" alt="tanaman-1">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/image/tanaman-2.png" alt="tanaman-2">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/image/tanaman-3.png" alt="tanaman-3">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/image/tanaman-4.png" alt="tanaman-4">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/image/tanaman-5.png" alt="tanaman-5">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/image/tanaman-3.png" alt="tanaman-3">
+                                <div class="text">
+                                    <h1>Lorem Ipsum</h1>
+                                    <p class="price">$19.99</p>
+                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <p><button>Add to Cart</button></p>
+                                </div>
+                            </div>
+                        </di>
+                    </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="tentang  section__height" id="tentang">
+                <div class="container section">
+                    <h2 class="section__title">About Planme.</h2>
+                    <div class="about_container">
+                        <div class="about-img">
+                            <img src="./assets/image/background2.jpg" alt="" >
+                        </div>
+                        <div class="about-text">
+                            <h2>The Aesthetic of Plant</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat praesentium. Quas quis, omnis repellendus reiciendis eius fuga quidem eum illum veniam explicabo excepturi fugit distinctio sequi quisquam quaerat dignissimos! Beatae delectus numquam perspiciatis.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ex aut repellat ipsum possimus delectus cum quaerat rerum?</p>
+                            <a href="#" class="btn_about">Learn More.</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== CONTACTME ===============-->
+            <section class="kontak container section" id="kontak">
+                <div class="footer-box">
+                    <h2>Plantme.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat praesentium. Quas quis, omnis repellendus reiciendis eius fuga quidem eum illum veniam explicabo excepturi fugit distinctio sequi quisquam quaerat dignissimos! Beatae delectus numquam perspiciatis.</p>
+                    <div class="social">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+                <div class="footer-box contact-info">
+                    <h3>Kontak</h3>
+                    <span>Surabaya, Indonesia</span>
+                    <span>+62 812 345 678</span>
+                    <span>plantme@gmail.com</span>
+                    
+                </div>
+            </section>
+        </main>
+        
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
